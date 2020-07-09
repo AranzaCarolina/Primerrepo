@@ -6,8 +6,9 @@ print("bienvenido")
 num1 = int(input("dime el primer numero: "))
 num2 = int(input("Dime el segundo numero: "))
 
-suma = num1+num2
-for suma in range(num1,num2):
-    suma+=num
+suma = 0 
+
+for n in range(num2+1):
+    suma+=n
 print(f'la suma es {suma}')
 

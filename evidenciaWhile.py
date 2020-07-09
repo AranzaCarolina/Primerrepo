@@ -9,3 +9,15 @@ if eleccion == 1:
     n2 = int(input("introduce el segundo numero: "))
     print(f"{n1} + {n2} = {n1 + n2}")
     espacio = input()
+elif eleccion == 2:
+    #resta
+    n1 = int(input("Introduce el primer numero: "))
+    n2 = int(input("Introduce el segundo numero: "))
+    print(f"{n1} - {n2} = {n1 - n2}")
+    espacio = input()
+elif eleccion == 3:
+    #multiplicacion
+    n1 = int(input("Introduce el primer numero: "))
+    n2 = int(input("Introduce el segundo numero: "))
+    print(f"{n1} * {n2} = {n1 * n2}")
+    espacio = input()
